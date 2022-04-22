@@ -18,7 +18,7 @@ dependencies:
     repository: https://charts.jfrog.io/
     condition: artifactory.enabled
   - name: xray
-    version: 103.46.0
+    version: 103.47.3
     repository: https://charts.jfrog.io/
     condition: xray.enabled
   - name: distribution
@@ -48,5 +48,5 @@ name: jfrog-platform
 sources:
 - https://github.com/jfrog/charts
 type: application
-version: 10.5.1
+version: 10.5.2
 kubeVersion: ">= 1.14.0-0"

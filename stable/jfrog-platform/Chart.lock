@@ -13,7 +13,7 @@ dependencies:
   version: 107.37.14
 - name: xray
   repository: https://charts.jfrog.io/
-  version: 103.46.0
+  version: 103.47.3
 - name: distribution
   repository: https://charts.jfrog.io/
   version: 102.12.1
@@ -23,5 +23,5 @@ dependencies:
 - name: pipelines
   repository: https://charts.jfrog.io/
   version: 101.22.4
-digest: sha256:e36a324fe1db7bb03f06e8bde5af8073630dc2bb1d321c001363d316f88346d3
-generated: "2022-04-18T11:01:06.809571+05:30"
+digest: sha256:f37c70d9ca227f09ae54ba8b5bee5f9ce9038cd872469522765ab37f7efc6499
+generated: "2022-04-21T10:01:21.292753+05:30"
