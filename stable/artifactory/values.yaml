@@ -997,6 +997,9 @@ artifactory:
             {{- with .enablePathStyleAccess }}
               <enablePathStyleAccess>{{ . }}</enablePathStyleAccess>
             {{- end }}
+            {{- if .serverSideEncryptionAwsKms }}
+              <server-side-encryption-aws-kms>true</server-side-encryption-aws-kms>
+            {{- end }}
           </provider>
         {{- end }}
       </config>
@@ -1149,6 +1152,7 @@ artifactory:
       cloudFrontPrivateKey:
       enableSignedUrlRedirect: false
       enablePathStyleAccess: false
+      serverSideEncryptionAwsKms: false
 
     ## For artifactory.persistence.type aws-s3
     ## IMPORTANT: Make sure S3 `endpoint` and `region` match! See https://docs.aws.amazon.com/general/latest/gr/rande.html
